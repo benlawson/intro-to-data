@@ -16,8 +16,9 @@ you can set up an virtual enviroment:
 ```
 pip install virtualenv
 virtualenv dataenv
-source dataenv/bin/activate //or source dataenv/Scripts/activate on windows
+source dataenv/bin/activate 
+#source dataenv/Scripts/activate # for windows
 pip install pyDOE folium httplib2 uberpy yelpapi
-deactivate //when you're done
+deactivate #when you're done
 ```
 Don't want to download? You can follow along [here](http://nbviewer.ipython.org/github/benlawson/intro-to-data/blob/master/Intro-to-sampling.ipynb?flush_cache=true)
